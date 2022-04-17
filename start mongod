@@ -1,0 +1,21 @@
+sudo systemctl start mongod
+
+first
+
+docker-compose build
+
+demarage docker 
+
+docker-compose up -d
+
+view log 
+
+docker-compose logs -f app
+
+get view :
+
+docker-compose exec app sh
+
+change directpry 
+
+sudo  chmod -R 777
